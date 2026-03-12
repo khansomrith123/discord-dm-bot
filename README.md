@@ -10,24 +10,6 @@ A comprehensive Discord.js bot that sends DM notifications to members for server
 - ⚙️ **Easy Setup**: Configure everything with slash commands
 - 🛡️ **Rate Limiting**: Built-in protection against Discord rate limits
 
-## 📁 Folder Structure
-discord-dm-bot/
-├── commands/           # Slash commands
-│   ├── ping.js        # Test command
-│   └── setup.js       # Configuration commands
-├── events/            # Event handlers
-│   ├── ready.js       # Bot startup
-│   ├── guildMemberAdd.js    # Welcome DM
-│   ├── guildMemberRemove.js # Leave DM
-│   ├── messageCreate.js     # Announcement detection
-│   └── interactionCreate.js # Command handling
-├── .env               # Environment variables (not in git)
-├── .env.example       # Example environment file
-├── .gitignore         # Git ignore rules
-├── deploy-commands.js # Register slash commands
-├── index.js           # Main entry point
-├── package.json       # Dependencies
-└── README.md          # This file
 
 
 ## 🚀 Setup Instructions
